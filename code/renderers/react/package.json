@@ -40,7 +40,9 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "files": [
+    "template/**/*",
     "dist/**/*",
+    "template/**/*",
     "types/**/*",
     "README.md",
     "*.js",
