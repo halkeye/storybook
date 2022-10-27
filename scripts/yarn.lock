@@ -3364,7 +3364,7 @@ __metadata:
     "@types/jest": ^26.0.16
     "@types/js-yaml": ^3.12.6
     "@types/lodash": ^4
-    "@types/node": ^16.0.0
+    "@types/node": 16.18.1
     "@types/node-cleanup": ^2.1.1
     "@types/node-fetch": ^2.5.7
     "@types/prompts": 2.0.11
@@ -3457,7 +3457,7 @@ __metadata:
     ts-loader: ^9.2.8
     ts-node: ^10.4.0
     tsup: ^6.2.2
-    typescript: ~4.6.3
+    typescript: 4.9.0-dev.20221026
     util: ^0.12.4
     verdaccio: ^4.10.0
     verdaccio-auth-memory: ^9.7.2
@@ -3976,10 +3976,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.0.0":
-  version: 16.11.65
-  resolution: "@types/node@npm:16.11.65"
-  checksum: 5d66c2e0119ff194b2e196b0016d5d083fd332a114cea04822fbc22a7733b2feba0db9de380a289f457312a24b2f313396084b682d670038f5b2ced2d14fc659
+"@types/node@npm:16.18.1":
+  version: 16.18.1
+  resolution: "@types/node@npm:16.18.1"
+  checksum: 5701131f7ef49f260411ccbcd645b76562312bd324528372c2ea6602df23a09d17272dc5068fb4640ed34ea1d7f7edb51a8a81dfd19556a973a81986558d4540
   languageName: node
   linkType: hard
 
@@ -18809,23 +18809,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~4.6.3":
-  version: 4.6.4
-  resolution: "typescript@npm:4.6.4"
+"typescript@npm:4.9.0-dev.20221026":
+  version: 4.9.0-dev.20221026
+  resolution: "typescript@npm:4.9.0-dev.20221026"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 92e2c0328485a4f7bd7435f5b105f03addff32f867e241dc3be8c372ed801a138c732d9a55697696d2f82a80dd6ad4bddff1ad6b0d1884bf4a24b92e71094c44
+  checksum: 316c97bfd16122d99b132f041bbba0b834711f425d2ce43863792e3728044110ff69ee68fcdbfb7c351bfc8d66c478a199e8dea5334df53eedc5866df2ab989e
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A~4.6.3#~builtin<compat/typescript>":
-  version: 4.6.4
-  resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=701156"
+"typescript@patch:typescript@npm%3A4.9.0-dev.20221026#~builtin<compat/typescript>":
+  version: 4.9.0-dev.20221026
+  resolution: "typescript@patch:typescript@npm%3A4.9.0-dev.20221026#~builtin<compat/typescript>::version=4.9.0-dev.20221026&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 0e3fa814d454942a689daf4c00f82328d323e7ecd4077e3265d45375e64642611631f4c882a71be87774468ba03793e9b8ff4bccfac3018194a9e36d8f72c251
+  checksum: aa7d243420f432b9e0ee0d7fff9532915b1e430a2e1b0c52774c060e0de8788b738bb62f2db8662f1c62db87da6674cc047844dd455c90bdabf6fd87ad15fbb0
   languageName: node
   linkType: hard
 

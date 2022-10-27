@@ -24,3 +24,6 @@ ember-output
 !.jest.config.js
 !.storybook
 
+## TODO remove this before merging
+*public-types.test.ts
+*public-types.test.tsx
