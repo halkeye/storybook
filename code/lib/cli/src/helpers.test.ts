@@ -9,8 +9,8 @@ jest.mock('fs', () => ({
   existsSync: jest.fn(),
 }));
 jest.mock('./dirs', () => ({
-  getRendererDir: (renderer) => `@storybook/${renderer}/`,
-  getCliDir: () => '',
+  getRendererDir: (renderer) => `@storybook/${renderer}`,
+  getCliDir: () => '@storybook/cli',
 }));
 
 jest.mock('fs-extra', () => ({
@@ -81,7 +81,7 @@ describe('Helpers', () => {
       const copySpy = jest.spyOn(fse, 'copy');
       expect(copySpy).toHaveBeenNthCalledWith(
         1,
-        'rendererAssets/common',
+        '@storybook/cli/rendererAssets/common',
         './stories',
         expect.anything()
       );
